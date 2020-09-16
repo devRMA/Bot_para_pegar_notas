@@ -26,7 +26,7 @@ def adicionar_nota(trimestre, notas, materia_para_adicionar):
             raise SystemExit(f"""
 A planilha "{trimestre}" não foi encontrada!
 Entre em Boletim.xlsx e altere o nome da planilha para {trimestre} ou
-entre em https://github.com/rafaelalves271/Pegar_nota_no_portal/blob/master/Boletim.xlsx e 
+entre em https://github.com/devRMA/Pegar_nota_no_portal/blob/master/Boletim.xlsx e 
 baixe o arquivo novamente
 """)
         else:
@@ -38,7 +38,7 @@ baixe o arquivo novamente
         driver.close()
         raise SystemExit("""
 O arquivo Boletim.xlsx não foi encontrado!
-Entre em https://github.com/rafaelalves271/Pegar_nota_no_portal e 
+Entre em https://github.com/devRMA/Pegar_nota_no_portal e 
 baixe o arquivo Boletim.xlsx novamente""")
 
 
